@@ -17,7 +17,7 @@ elif enter2==card_password:
 elif enter1==card_number:
     enter2=raw_input("The password is wrong.Please enter again:")
     if enter2==card_password:
-        print("You have one billion!")
+        print('You have one billion!')
     else:
         print("The number or the password is wrong.")
 else:
